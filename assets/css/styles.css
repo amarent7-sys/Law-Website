@@ -2030,8 +2030,30 @@ textarea.form-control {
 }
 
 /* ==========================================
-   14. RESPONSIVE DESIGN (MEDIA QUERIES)
+   14. RESPONSIVE DESIGN (MEDIA QUERIES) & SERVICES
    ========================================== */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.service-detail-card {
+  background: var(--glass-bg-accent);
+  border: 1px solid var(--color-border-glass);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  transition: all var(--transition-smooth);
+  box-shadow: var(--shadow-card);
+}
+
+.service-detail-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--color-gold);
+  box-shadow: var(--shadow-gold);
+}
+
 @media (max-width: 1024px) {
   .hero-grid {
     grid-template-columns: 1fr;
@@ -2042,6 +2064,10 @@ textarea.form-control {
   }
   .synergy-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
   }
   .judgments-grid {
     grid-template-columns: 1fr;
@@ -2078,8 +2104,26 @@ textarea.form-control {
   .header-cta {
     display: none;
   }
+  .hero-content h1 {
+    font-size: 2.2rem !important;
+    line-height: 1.25 !important;
+  }
+  .hero-tagline {
+    font-size: 1rem !important;
+    padding-left: 1rem !important;
+  }
+  .section-title {
+    font-size: 1.8rem !important;
+  }
+  .section-padding {
+    padding: 3.5rem 1rem !important;
+  }
   .synergy-grid {
     grid-template-columns: 1fr;
+  }
+  .services-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem;
   }
   .calendar-layout {
     grid-template-columns: 1fr;

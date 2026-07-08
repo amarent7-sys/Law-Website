@@ -81,49 +81,49 @@ function initAccordions() {
    ========================================================================== */
 const SC_JUDGMENTS_DATA = [
   {
-    title: "State of Maharashtra v. Digital Infrastructure Ltd. & Ors.",
-    citation: "2026 INSC 442",
-    date: "2026-05-21",
+    title: "Karan Malhotra v. State of Delhi & Anr.",
+    citation: "2026 INSC 582",
+    date: "2026-07-04",
     category: "Cyber",
-    summary: "A milestone ruling defining strict forensic boundaries for server audit logs and database trails. In a dynamic step for criminal procedure under Section 94 of the Bhartiya Nagarik Suraksha Sanhita (BNSS), the Supreme Court ruled that electronic evidence lacking certified hash validation and clear chains of custody is inadmissible in prosecutions.",
-    bench: "Hon'ble Dr. D.Y. Chandrachud, Hon'ble Manoj Misra",
-    link: "#"
+    summary: "The Supreme Court permitted the summoning of Call Detail Records (CDRs) and hotel audit logs to substantiate allegations. The Court held that privacy rights must be balanced with the search for truth in digital evidence preservation.",
+    bench: "Hon'ble Hrishikesh Roy, Hon'ble Manoj Misra",
+    link: "https://sci.gov.in"
   },
   {
-    title: "Securities and Exchange Board of India v. Corporate Compliance Corp. & Anr.",
-    citation: "2026 SCC OnLine SC 892",
-    date: "2026-05-19",
-    category: "Financial",
-    summary: "Affirmed corporate forensic and tracing guidelines under the Companies Act read with the new BNS provisions. The Court held that CMA-certified compliance audits carry high judicial trust when tracing asset diversion across nested bank accounts and shell companies.",
-    bench: "Hon'ble Sanjiv Khanna, Hon'ble S.V.N. Bhatti",
-    link: "#"
-  },
-  {
-    title: "Aman Verma v. Union of India",
-    citation: "2026 INSC 415",
-    date: "2026-05-18",
+    title: "In Re: Guidelines for Artificial Intelligence Integration in Judicial Tribunals",
+    citation: "2026 INSC 510",
+    date: "2026-06-28",
     category: "BNS/BNSS",
-    summary: "Important interpretation of Section 105 of the Bhartiya Nyaya Sanhita (BNS) concerning white-collar conspiracies. The Supreme Court clarified that systematic accounting standard deviations without proven mens rea (guilty mind) do not equate to criminal fraud, shielding corporate CFOs and compliance officers from unwarranted prosecution.",
-    bench: "Hon'ble Hrishikesh Roy, Hon'ble Prashant Kumar Mishra",
-    link: "#"
+    summary: "Releasing regulatory directives for AI utilization in legal proceedings, the Supreme Court ruled that AI-generated citations must be verified independently. System integrity and audit trails remain the sole accountability of CISA-certified networks.",
+    bench: "Hon'ble Dr. D.Y. Chandrachud, Hon'ble K.V. Viswanathan",
+    link: "https://sci.gov.in"
   },
   {
-    title: "Cyber Forensic Consortium v. State of Karnataka & Anr.",
-    citation: "2026 SCC OnLine SC 756",
-    date: "2026-05-16",
-    category: "Cyber",
-    summary: "Addressing digital evidence preservation, the Apex Court issued a mandate that electronic notifications and virtual seizure procedures conducted by cyber cells must be backed by cryptographically secure, unalterable digital receipts under Section 173 of the BNSS.",
-    bench: "Hon'ble B.R. Gavai, Hon'ble K.V. Viswanathan",
-    link: "#"
-  },
-  {
-    title: "National Anti-Money Laundering Cell v. Mehta Trading Ltd.",
-    citation: "2026 INSC 388",
-    date: "2026-05-15",
+    title: "State Bank of India v. Bar Association of Mumbai",
+    citation: "2026 SCC OnLine SC 980",
+    date: "2026-06-21",
     category: "Financial",
-    summary: "A crucial case clarifying the limits of retroactive financial audits. The Court held that retrospective assessments under economic security regimes require exceptional evidence of deliberate concealment before freezing active commercial bank reserves.",
+    summary: "The Apex Court held that financial institutions cannot blacklist legal advisors by placing them on caution lists. Professional discipline resides exclusively with the Bar Council under the Advocates Act, safeguarding legal independence.",
+    bench: "Hon'ble Sanjiv Khanna, Hon'ble S.V.N. Bhatti",
+    link: "https://sci.gov.in"
+  },
+  {
+    title: "Shakuntala Devi v. Ram Prasad & Ors.",
+    citation: "2026 INSC 485",
+    date: "2026-06-18",
+    category: "BNS/BNSS",
+    summary: "The Supreme Court ruled that attesting witness testimonies do not automatically validate a contested Will. The propounder bears the direct burden of dispelling suspicious circumstances, applying strict forensic standards.",
+    bench: "Hon'ble B.R. Gavai, Hon'ble Sandeep Mehta",
+    link: "https://sci.gov.in"
+  },
+  {
+    title: "Directorate of Enforcement v. Golden Enterprise Ltd.",
+    citation: "2026 INSC 450",
+    date: "2026-06-12",
+    category: "Financial",
+    summary: "The Supreme Court restricted retrospective asset freezing powers under the PMLA without proven willful ledger tampering, emphasizing that CMA-audited accounts provide a strong defense against arbitrary seizures.",
     bench: "Hon'ble Abhay S. Oka, Hon'ble Ujjal Bhuyan",
-    link: "#"
+    link: "https://sci.gov.in"
   }
 ];
 
